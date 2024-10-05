@@ -18,7 +18,7 @@ function App() {
         if (res.result != false) {
           setAccountId(res.result);
         } else {
-          window.location.href="/login.html";
+          window.location.href="/users/login";
         }
       });
   }
